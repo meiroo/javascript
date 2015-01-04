@@ -17,3 +17,4 @@
 * A11: 从1到24分为3组，求使得3组的和相等的分法个数
 * S1: 使用Node.JS Promise方式做成的脚本。包含遍历文件夹，修改文件，调用linux命令等。
 * S2: 使用Python 计算工程代码行数的脚本（不包含注释和空行）。
+* Learn1 : 学习[用JavaScript玩转计算机图形学(一)光线追踪入门](http://www.cnblogs.com/miloyip/archive/2010/03/29/1698953.html#3077170) 的代码
