@@ -1,5 +1,6 @@
 define(function(require, exports, module) {
 
+    //计算公式如下
     //原点o 球心c 相交点为x
     //则以 o c x 三点可以构成一个三角形 且 ||x-c|| = 半径R
     //根据向量相加原理  （o-c）+ （x-o） = （x-c）
@@ -11,7 +12,9 @@ define(function(require, exports, module) {
     //d*d * t*t  + 2vd*t + v*v- R*R = 0; 二元一次方程 (-b +- sqrt(b*b-4ac))/2a  且d*d = 1
     //-vd - sqrt（(vd)*(vd)-(v*v-R*R)）
     //  对应下面代码
-    //t =  -DdotV -  sqrt(DdotV*DdotV - a0)           
+    //t =  -DdotV -  sqrt(DdotV*DdotV - a0)  
+
+    var IntersectResult = require("IntersectResult");         
 
     var Sphere = function(center, radius) { this.center = center; this.radius = radius; };
      
