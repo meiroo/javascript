@@ -1,6 +1,5 @@
 ##基于Javascript实现的部分算法以及题目##
 
-<font
 * Q1: 解析简单HTML并将结果绘制为image
 * Q2: 使用canvas绘制柱状图表
 * Q3: 根据超市小票计算订单价格
