@@ -1,1 +1,6 @@
-test duapp node 
+var afds ={
+  
+  abc = {
+  	this is a text.
+	}
+}
