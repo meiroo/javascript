@@ -1,6 +1,1 @@
-var afds ={
-  
-  abc = {
-  	this is a text.
-	}
-}
+sfsdfsdf
